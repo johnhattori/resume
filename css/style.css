@@ -1,0 +1,107 @@
+@media screen and (max-width: 300px) {
+
+}
+@media screen and (max-width: 600px) {
+
+}
+body {
+  font-family: calibri, optima, "lucida grande", arial, helvetica, sans-serif;
+  line-height: 1; /* what does this do? */
+  overflow:scroll;
+}
+h1  {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 24px;
+  color:grey;
+}
+h2  {
+  margin-top: 4px;
+  text-align: center;
+  font-size: 18px;
+  color:grey;
+}
+h3 {
+  font-size:20px;
+  color: grey;
+}
+h4 {
+  font-size: 16px;
+  font-family: calibri, optima, arial, verdana, tahoma, sans-serif;
+  margin-top: 10px;
+}
+ul {
+  margin-top: 12px;
+}
+ul li {
+  margin-bottom: 4px;
+  list-style: none;
+}
+a {
+  color: grey;
+  text-decoration: none;
+   }
+ a:hover {
+  color:#96A2B8;
+ }
+ ul li a {
+  color:#787375;
+  text-decoration: none;
+ }
+.entire_page {
+  width:900px;
+}
+.container {
+  margin: 40px 60px;
+  width:420px;
+  float:left;
+}
+.box {
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+  width:420px;
+  margin-top: 12px;
+}
+#sub {
+  background-color:#D1E9ED;
+}
+ul {
+  clear: both;
+  margin-top: 80px;
+}
+ul li {
+  font: 200 14px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+#lang {
+  background-color:#D1EDD7;
+  overflow: hidden;
+}
+.sidebar {
+  float: right;
+  text-align: right;
+  margin: 40px 60px;
+}
+.contact {
+  float:left;
+}
+.sidebar ul {
+  margin-top: 34px;
+  clear: both;
+}
+.sidebar ul li {
+  text-align: left;
+}
+#edu {
+  background-color:#F2C7EA;
+}
+#state {
+  background-color:#EDE9BB;
+}
